@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --color-primary: #ff0000;
+}
+
+@utility scrollbar-hidden {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer */
+        &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+
+/* * {
+    border: 1px solid red;
+} */
